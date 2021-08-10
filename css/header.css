@@ -1,0 +1,120 @@
+.header-section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  background-attachment: fixed;
+}
+
+.header-section-s {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  background-attachment: fixed;
+}
+
+.header-section-container {
+  padding: 200px 0px;
+  width: calc(100vw - 200px);
+  text-align: center;
+}
+
+.header-section-aside {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-section-aside-bar {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.socialmedia-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#IFB {background-image: url("../graphics/socialmedia-icons/fb.png")}
+#ITT {background-image: url("../graphics/socialmedia-icons/tt.png")}
+#IIG {background-image: url("../graphics/socialmedia-icons/ig.png")}
+#IYT {background-image: url("../graphics/socialmedia-icons/yt.png")}
+
+.header-title {
+  color: #ffffff;
+  color: #ffcc33;
+  align-items: center;
+  font-size: 140px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
+.header-title-s {
+  color: #ffffff;
+  color: #ffcc33;
+  align-items: center;
+  font-size: 140px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
+.header-subtitle {
+  color: #ffffff;
+  align-items: center;
+  font-size: 40px;
+  /* line-height: 2.6; */
+  text-decoration: none;
+}
+
+#BG {background-image: url("../graphics/index/arthur-poulin-NhU0nUR7920-unsplash.png")}
+
+@media screen and (max-width: 1199px) {
+  .header-title-s {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-title {
+    font-size: 70px;
+  }
+  .header-title-s {
+    font-size: 60px;
+  }
+  .header-subtitle {
+    font-size: 25px;
+  }
+
+
+  .header-section-aside {
+    width: 50px;
+  }
+  .header-section-aside-bar {
+    width: 30px;
+  }
+  .socialmedia-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .header-section-container {
+    width: calc(100vw - 100px);
+  }
+}

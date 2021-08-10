@@ -1,0 +1,316 @@
+:root {
+  --mainBackgroundColor: #ffffff;
+
+  --cardHeaderColor: #000000;
+  --cardDescriptionColor: #616161;
+  --cardDescriptionHoverColor: #000000;
+  --cardTextColor: #616161;
+  --cardTextHoverColor: #000000;
+  --cardBoxColor: #d2d2d2;
+  --cardComponentshadowColor: #00000029;
+
+  --CVBackgroundColor: #fafafa;
+  --GHImage: url("../graphics/GitHub-Mark-120px-plus.png");
+  --QRImage: url("../graphics/QRDark.png");
+}
+
+
+
+
+.main-section{
+  width: 100%;
+  background-color: var(--mainBackgroundColor);
+}
+.main-container {}
+
+.card {
+  padding: 50px 200px;
+}
+
+
+
+
+/**********CARD COMPONENTS**********/
+/* CARD HEADER */
+.card-header {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--cardHeaderColor);
+}
+a.card-header:hover {
+
+}
+/* CARD DESCRIPTION */
+.card-description {
+  color: var(--cardTextColor);
+  align-items: center;
+  font-size: 12px;
+  line-height: 2.6;
+  text-decoration: none;
+}
+a.card-description:hover {
+  color: var(--cardTextHoverColor);
+}
+/* CARD TEXT */
+.card-text {
+  color: var(--cardTextColor);
+  align-items: center;
+  font-size: 15px;
+  line-height: 2.6;
+  text-decoration: none;
+}
+a.card-text:hover {
+  color: var(--cardTextHoverColor);
+}
+/* CARD BUTTON */
+.card-button {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.card-button:hover {
+
+}
+.card-button-container {
+  font-size: 20px;
+}
+.card-button-container:hover {
+
+}
+/* CARD BOX */
+.card-box{
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--cardBoxColor);
+  color: var(--cardHeaderColor);
+  text-decoration: none;
+  box-shadow: 12px 12px 96px var(--cardComponentshadowColor);
+  /* padding: 0px 20px; */
+}
+.card-box:hover{
+
+}
+.card-box-container{
+  font-size: 17px;
+}
+.card-box-container:hover{
+
+}
+/* CARD GRAPHICS */
+.card-graphics{
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.card-graphics:hover{
+
+}
+/* CARD INPUT */
+.card-input{
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  background-color: var(--cardBoxColor);
+  color: var(--cardHeaderColor);
+  text-decoration: none;
+  box-shadow: 12px 12px 96px var(--cardComponentshadowColor);
+  padding: 0px 10px;
+  height: 50px;
+}
+.card-input:hover{
+
+}
+.card-input-container{
+  font-size: 15px;
+}
+.card-input-container:hover{
+
+}
+/* CARD TAG */
+.card-tag-bar {
+
+}
+.card-tag {
+  text-decoration: none;
+}
+.card-tag:hover {
+
+}
+.card-tag-container {
+  border: none;
+  border-radius: 5px;
+  /* width: 100px; */
+  padding: 0px 20px;
+  height: 35px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #ffcc33;
+  color: #000000;
+  cursor: pointer;
+  line-height: 35px;
+  text-decoration: none;
+}
+.card-tag-container:hover {
+  background-color: #808080;
+}
+/* CARD COUNTER */
+.card-conter-bar {
+
+}
+.card-counter {
+  text-decoration: none;
+}
+.card-counter:hover {
+
+}
+.card-counter-container {
+  border: none;
+  border-radius: 5px;
+  /* width: 100px; */
+  /* padding: 0px 20px; */
+  height: 150px;
+  width: 150px;
+  background-color: #ffcc33;
+  color: #000000;
+  cursor: pointer;
+}
+.card-counter-container:hover {
+  background-color: #808080;
+}
+.card-counter-number {
+  width: 100%;
+  height: 70%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+  text-decoration: none;
+}
+.card-counter-text {
+  width: 100%;
+  height: 30%;
+  font-size: 15px;
+  text-align: center;
+  /* line-height: 30px; */
+  text-decoration: none;
+}
+
+
+/**********INDIVIDUAL COMPONENTS**********/
+#ME{background-image: url("../graphics/index/toa-heftiba-O3ymvT7Wf9U-unsplash_Easy-Resize.com.jpg"); }
+
+.projects-card {justify-content: space-between}
+.project {
+  box-shadow: 12px 12px 96px var(--cardComponentshadowColor);
+  border-radius: 5px;
+  width: 225px;
+  width: 300px;
+  text-decoration: none;
+}
+.project-logo {
+  background-color: #1f1f1f;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.project-logo:hover {
+  opacity: 0.7;
+}
+.project-container {
+  padding: 0px 15px 25px 15px;
+}
+.project-header {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--cardHeaderColor);
+  justify-content: center;
+  text-align: center;
+}
+
+#IA1{background-image: url("../graphics/index/inja-pavlic-vs4Eb73-AjU-unsplash.png"); }
+#IA2{background-image: url("../graphics/index/michael-dziedzic-dbpLrMALyiM-unsplash.png"); }
+#IA3{background-image: url("../graphics/index/helena-lopes-PGnqT0rXWLs-unsplash.png"); }
+#IA4{background-image: url("../graphics/index/hunters-race-MYbhN8KaaEc-unsplash.png"); }
+#IA5{background-image: url("../graphics/index/junior-moran-hrEJYRtBDrk-unsplash (1).png"); }
+#IA5{background-image: url("../graphics/index/hannah-busing-fPDF4GQJmxM-unsplash.png"); }
+#IA6{background-image: url("../graphics/index/valery-tenevoy-uruNsgg5j-o-unsplash.png"); }
+#IA7{background-image: url("../graphics/index/olga-delawrence-5616whx5NdQ-unsplash.png"); }
+#IA8{background-image: url("../graphics/index/gayatri-malhotra-WzfqobnrSVc-unsplash.png"); }
+
+#SB{background-image: url("../graphics/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg")}
+
+.social-logo {height: 110px; width: 110px; justify-content: center; align-items: center;}
+.social-logo-container {height: 100px; width: 100px; margin: auto}
+.social-logo-container:hover {height: 110px; width: 110px}
+#FB{background-image: url("../graphics/f_logo_RGB-Hex-Blue_512.png")}
+#LI{background-image: url("../graphics/LI-In-Bug.png")}
+#GH{background-image: var(--GHImage)}
+#GL{background-image: url("../graphics/gitlab-icon-rgb.png")}
+
+#IFB {background-image: url("../graphics/socialmedia-icons/fb.png")}
+#ITT {background-image: url("../graphics/socialmedia-icons/tt.png")}
+#IIG {background-image: url("../graphics/socialmedia-icons/ig.png")}
+#IYT {background-image: url("../graphics/socialmedia-icons/yt.png")}
+
+#cv {background-color: var(--CVBackgroundColor)}
+#cv-button {height: 150px; background-color: #ffc107}
+#cv-button:hover {background-color: grey}
+#cv-button-container {line-height: 150px; color: #000000}
+
+#QR{background-image: url("../graphics/index/austin-kehmeier-lyiKExA4zQA-unsplash_Easy-Resize.com.jpg");}
+.contact-box {height: 100px;}
+.contact-box-container {line-height: 100px;}
+
+#form-button {height: 60px; background-color: #1745ee}
+#form-button:hover {background-color: grey}
+#form-button-container {
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #00000000;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+ }
+
+#PO {background-image: url("../graphics/portfolio.png")}
+#P1 {background-image: url("../graphics/projekt1.png")}
+#P2 {background-image: url("../graphics/projekt2.png")}
+
+#TT{background-color: lightgrey}
+
+#message-button {height: 40px; background-color: #1745ee; width: 25%}
+#message-button:hover {background-color: grey}
+#message-button-container {line-height: 40px; color: #ffffff; font-size: 12px}
+.message-buttons {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1641px) {
+  .projects-card{justify-content: center}
+}
+@media screen and (max-width: 1199px) {
+  .card {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project{
+    width: 100%;
+  }
+  .card {
+    padding: 50px 30px;
+  }
+  .mobile-hidder {
+    display: none;
+  }
+}
